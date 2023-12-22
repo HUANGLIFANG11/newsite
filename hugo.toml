@@ -1,0 +1,11 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+publishDir="docs"
+theme = 'ananke'
+title = '宠物友好型城市'
+canonifyurls = true
+[markup]
+defaultMarkdownHandler="goldmark"
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe=true
