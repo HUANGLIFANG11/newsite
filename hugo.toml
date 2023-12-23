@@ -1,6 +1,8 @@
 baseURL = 'https://huanglifang11.github.io/newsite//'
 languageCode = 'en-us'
 publishDir= "docs"
+hasCJKLanguage = true
+summaryLength = 30
 theme = 'ananke'
 title = '宠物友好型城市'
 canonifyurls = true
@@ -9,5 +11,3 @@ defaultMarkdownHandler="goldmark"
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe=true
-hasCJKLanguage = true
-summaryLength = 30
