@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-publishDir="docs"
+publishDir= "docs"
 theme = 'ananke'
 title = '宠物友好型城市'
 canonifyurls = true
