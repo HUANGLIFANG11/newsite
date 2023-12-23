@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://huanglifang11.github.io/newsite//'
 languageCode = 'en-us'
 publishDir= "docs"
 theme = 'ananke'
@@ -9,3 +9,5 @@ defaultMarkdownHandler="goldmark"
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe=true
+hasCJKLanguage = true
+summaryLength = 30
